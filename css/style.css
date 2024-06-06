@@ -1,16 +1,20 @@
 *{
-    margin: 0px 10px;
+    margin: 0px 30px;
     padding: 0;
     
 }
-/* estilos del header */
 
-        /* para que quede el header con el nav siguiendome el menu */
-        /* menu{
+/* estilos del header */
+        
+        header{
+        width: 1200px;
         position: fixed;
-        top: 1px;
-        right: 1px;
-        } */
+        top: 5px;
+        right: 90px;
+        opacity: 0.8;
+        
+        } 
+
     .logo1{
         color: green;
         width: 90px;
@@ -18,16 +22,17 @@
         top: 22px;
         left: 0px;
     }
-
+    
     .logosredes{
-        color: green;
+        height: 2px;
         position: relative;
         top: -15px;
-        left: 900px;
+        left: 820px;
     }
+    
     a{
         color: white;
-        margin: 0 5px;
+        margin: 0 1px; 
         padding-left: 60px;
     }
     
@@ -36,30 +41,32 @@
         color: white;
         font-size: x-small;
     }
-/* fin estilos header */
 
-/* estilos del hero */
+    /* INICIO DEL HERO */
     .hero{
         background-color: black;
+        height: 500px;
     }
+    
     .heroinfo{
-        font-size: 55px;
+        font-size: 50px;
         color: white;
         height: 1vh;
-        position: relative;
-        left: 50px;
-        top: 150px;
+        position: absolute;
+        left: 120px;
+        top: 170px;
     }
+    
     .puntoverde{
-        position: relative;
-        left: 320px;
-        top: -95px;
+        position: absolute;
+        left: 285px;
+        top: -30px;
         color: rgb(21, 164, 17);
     }
     .letraverde{
-        position: relative;
+        position: absolute;
         left: 125px;
-        top: -100px;
+        top: 125px;
         color: rgb(21, 164, 17);
         font-size: small;
     }
@@ -68,25 +75,34 @@
         font-family: Arial, Helvetica, sans-serif;
         color: gray;
     }
-    .movs1{ /* movimiento del subtitulo designer*/
-         position: relative;
+    .movs1{ 
+         position: absolute;
         left: 10px;
-        top: -115px;
+        top: 125px;
     }
-    .movs2{ /* movimiento desl subtitulo developer*/
-        position: relative;
+    .movs2{ 
+        position: absolute;
        left: 145px;
-       top: -131px;
+       top: 125px;
    }
-
     .imagenhero{
-        width: 750px;
-        margin: 0px 200px;
-       
-
+        height: 450px;
+        width: 780px;
+        margin: 50px 250px;
     }
+   
 
     .about{
-        background-color: white;
+        background-color: whitesmoke
     }
-/* fin estilos del hero */
+    .aboutghizzoni{
+        font-size: 30px;
+    }
+    .about{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 90px 150px 120px 150px ;
+    }
+ */
