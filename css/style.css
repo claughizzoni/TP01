@@ -4,16 +4,15 @@
     
 }
 
-/* estilos del header */
+/* INICIO ESTILOS HERO */
         
-        header{
+    header{
         width: 1200px;
         position: fixed;
-        top: 5px;
+        top: 0px;
         right: 90px;
         opacity: 0.8;
-        
-        } 
+    } 
 
     .logo1{
         color: green;
@@ -26,7 +25,7 @@
     .logosredes{
         height: 2px;
         position: relative;
-        top: -15px;
+        top: -23px;
         left: 820px;
     }
     
@@ -39,10 +38,10 @@
     header{
         background-color: black;
         color: white;
-        font-size: x-small;
+        font-size: 9px;
     }
 
-    /* INICIO DEL HERO */
+/* INICIO ESTILOS DEL HERO */
     .hero{
         background-color: black;
         height: 500px;
@@ -91,18 +90,162 @@
         margin: 50px 250px;
     }
    
-
+/* INICIO ESTILO DEL */
     .about{
         background-color: whitesmoke
     }
     .aboutghizzoni{
         font-size: 30px;
+        position: relative;
+        left: 0px;
+        top: -12px;
     }
     .about{
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         align-items: center;
         text-align: center;
-        padding: 90px 150px 120px 150px ;
+        padding: 100px 150px 120px 150px ;
     }
+
+ /* INICIO ESTILO SKILLS */
+    .fotoescritorio{
+        width: 100%;
+        margin: 0 0 0px;
+       
+    }
+    .textoprof{
+      margin: 0 0 20px;
+    }
+
+    /* esto hace un boton y que cambia de color*/
+    button{
+        background-color: green;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: black;
+        transition: background-color 1s, color 1s;
+    }
+    button:hover{
+        background-color: white;
+        color:grey
+    }
+
+    /* .container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .container .progress-container{
+        margin-bottom: 25px;
+    }
+
+    .container .progress-container h4{
+        margin: 0 0 15px 15px;
+        letter-spacing: .5px;
+    }
+
+    .container .progress-container .progress-bar span{
+        position: relative;
+        width: 500px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: white;
+        box-shadow: 3px 4px 5px 6px rgba(204 185 185 / .75);
+    }
+
+    .container .progress-container .progress-bar span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.7;
+        text-align: center;
+        border-radius: 30px;
+        background: linear-gradient(90deg, rgba(76,175,80,1) 50% rgba(50,222,132,1)100%);
+        transition: width .5s linear;
+    }
+
  */
+
+ .progress-bar1 {
+    width: 46%;
+    height: 40px;
+    background-color: #08D848;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 295px;
+    top: -10px;  
+    opacity: 0,8;
+} 
+.progress-bar2 {
+    width: 39%;
+    height: 40px;
+    background-color: #08D848;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 295px;
+    top: 10px;  
+}  .progress-bar3 {
+    width: 43%;
+    height: 40px;
+    background-color:#08D848 ;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    box-shadow: 2 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 295px;
+    top: 30px;  
+}  .progress-bar4 {
+    width: 41%;
+    height: 40px;
+    background-color: #08D848;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    box-shadow: 2 2px 5px rgba(0, 0, 0, 0);
+    position: relative;
+    left: 295px;
+    top: 50px;  
+} 
+
+
+
+/* .progress {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 234, 19);
+    transition: width 0.3s ease;
+} */
+
+.barras{
+    position: relative;
+    right: 50px;
+    top: -360px;
+}
+
+.textoskills{
+   color: rgb(250, 250, 250);
+   text-align: center;
+   justify-content: center;
+   position: absolute;
+   top: 900px;
+   left: 500px;
+}
+.subhabilidades{
+    position: relative;
+    top: 15px;
+
+}
