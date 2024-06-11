@@ -103,7 +103,7 @@
    }
     .imagenhero{
         height: 450px;
-        width: 780px;
+        width: 950px;
         margin: 50px 250px;
     }
    
@@ -128,7 +128,7 @@
  /* INICIO ESTILO SKILLS */
     .skills{
         background-image: url(../img/escritorioosc.png);
-        height: 495px;
+        height: 450px;
     }
 
     .ps{
@@ -253,99 +253,50 @@
 } 
 
 
-
-/* .progress {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(19, 234, 19);
-    transition: width 0.3s ease;
-} */
-
-
-
-
-.textoskills{
-   color: rgb(250, 250, 250);
-   text-align: center;
-   justify-content: center;
-   position: absolute;
-   top: 900px;
-   left: 500px;
-}
-.subhabilidades{
-    position: relative;
-    top: 15px;
-
-}
-
 /* INICIO ESTILOS MY WORK */
-.fondomywork{
-    width: 1200px;   
-   position: relative;
-   right: 30px;
-   top: -165px;
+.contenedor-mistrabajos{
+    background-image: url(../img/fondomywork.png);
+    height: 1200px;
+    color: white;
+    align-items: center;
+    
 }
-.mis-trabajos{
-    color: rgb(189, 21, 21);
+
+.mis-trabajos, .productos, .nav2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
     position: relative;
-    margin: 20px;
-  
-}
-.d1, .d2, .d3, .d4{
-    width: 100px;
-    height: 100px;
+    top: 90px;
 }
 
 .nav2{
-    color: rgb(188, 49, 49);
-    font-size: xx-small;
-   text-align:center;
-   position: absolute;
-   top: 1565px;
-   left: 350px;
-   padding-bottom: 250px;
-     
-}
-.unamuestra{
-    color: white;
-}
-.mywork{
-    font-size: 35px;
-    color: white;
-    display: flex;
-    justify-content: center;
     position: relative;
-    top: -1760px;
+    top: 160px;
+    font-size: 12px;
+}
+.productos{
+    position: relative;
+    top: 100px;
+    color: grey;
 }
 
-/* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-} */
-.muestra1, .muestra2{
-    background-color: #092630;
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
-    width: 100%;
-    margin: ;
+.contenedor-imagenes1,.contenedor-imagenes2{
+ display: flex;
+ justify-content: space-around;  
+width: 80%;
+ position: relative;
+ top: 200px;
 }
 
-.my1 .my2 .my3 .my4 .my5 .my6{
-    height: 50px;
-    width: 50px;
-    background-color: #092630;
-    border: 10px solid black;
+.mw1, .mw2, .mw3, .mw4, .mw5, .mw6{
+width: 350px;
+height: 400px;
+color: black;
+background-color: white;
 }
-
-.im1, .im2, .im3, .im4,.im5{
-width: 250px;
-}
-
-/* INICIO ESTILOS ECPERIENCIA */
-.contenedorexp{
-    align-items: center;
-    justify-content: center;
+.imw1, .imw2, .imw3, .imw4, .imw5, .imw6{
+width: 320px;
+height: 300px;    
+align-items: center;
 }
