@@ -312,6 +312,7 @@ width: 350px;
 height: 340px;    
 align-items: center;
 }
+
 p{
     display: flex;
     justify-content: center;
@@ -372,4 +373,68 @@ h6{
     position: relative;
     top: 10px;    
 }
+
+/* INICIO DE ESTILOS DE SECCION BLOG */
+.contenedor-padre-blog{
+    background-color: #37384F;
+    width: 100%;
+    height: 1200px;
+    color: white;
+    padding-top: 200px;
+   
+}
+.contenedor-blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.b1, .b2, .b3{
+    width: 320px;
+    height: 350px;
+    background-color: rgb(210, 207, 207);
+    color: black;
+    padding-bottom: 60px;
+}
+.b1{
+    position: relative;
+    left: 130px;
+}
+.b2{
+    position: relative;
+    right: 850px;
+}
+
+.b3{
+    position: relative;
+    right: 831px;
+}
+.imb1, .imb2, .imb3{
+    width: 320px;
+    height: 210px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testi1, .testi2, .testi3{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: grey;
+}
+h5{
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   color: gray;
+   position: relative;
+   top: -25px;
+}
+.coment{
+    width: 999px;
+    height: 50px;
+    position: relative;
+    top: 230px;
+    right: 190px;
 }
