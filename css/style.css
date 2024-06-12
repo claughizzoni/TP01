@@ -3,6 +3,8 @@
     padding: 0;
     
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 
 /* INICIO ESTILOS HERO */
         
@@ -87,8 +89,8 @@
         font-size: small;
     }
     .sub{
-        font-size: small;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
         color: gray;
     }
     .movs1{ 
@@ -112,18 +114,27 @@
         background-color: #eef1f2;
     }
     .aboutghizzoni{
+        font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: black;
+
         font-size: 30px;
         position: relative;
         left: 0px;
         top: -12px;
     }
     .about{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style:normal;
+color: grey;
         display: flex;
         align-items: center;
         text-align: center;
         padding: 100px 150px 120px 150px ;
     }
+
 
  /* INICIO ESTILO SKILLS */
     .skills{
@@ -399,16 +410,16 @@ h6{
 }
 .b1{
     position: relative;
-    left: 130px;
+    left: 220px;
 }
 .b2{
     position: relative;
-    right: 850px;
+    right: 760px;
 }
 
 .b3{
     position: relative;
-    right: 831px;
+    right: 740px;
 }
 .imb1, .imb2, .imb3{
     width: 320px;
@@ -436,5 +447,56 @@ h5{
     height: 50px;
     position: relative;
     top: 230px;
-    right: 190px;
+    right: 100px;
+}
+.from-blog, .resenias{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: -30px;
+}
+
+.from-blog{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* INICIO DE ESTILOS SECCION FORMULARIO */
+.ejemploo{
+    background-color: #333340;
+    width: 725px;
+    height: 480px;
+    color: white;
+  
+}
+
+.texto-form, .img-dire, .dire, .img-telf, .telf,.img-mail, .mail{
+display: flex;
+justify-content: left;   
+}
+
+.nombres,.nombre-f,.mail-form,.mails{
+display: flex;
+justify-content: right;
+}
+.comentarios,.caja{
+    display: flex;
+    justify-content: right;
+}
+
+.contenedor-formulario{
+    display: flex;
+    justify-content: space-around;
+}
+.datos-form{
+    background-color:rgb(157, 255, 0);
+    width: 360px;
+    height: 480px;
+    
+}
+.form-formulario{
+    background-color:red;
+    width: 360px;
+    
 }
