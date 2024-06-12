@@ -11,9 +11,12 @@
     header{
         width: 100%;
         height: 50px;
-        position: fixed;
         top: 0px;
         opacity: 0.8;
+        background-color: black;
+        color: white;
+        font-size: 9px;
+        position: fixed;
     } 
 
     .logo1{
@@ -50,14 +53,6 @@
        position: absolute;
        left: 1250px;
        top: 20px;
-    }
-    
-
-    
-    header{
-        background-color: black;
-        color: white;
-        font-size: 9px;
     }
 
 /* INICIO ESTILOS DEL HERO */
@@ -105,7 +100,7 @@
    }
     .imagenhero{
         height: 450px;
-        width: 950px;
+        width: 850px;
         margin: 50px 250px;
     }
    
@@ -146,6 +141,9 @@ color: grey;
     }
 
     .ps{
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style:normal;
         color: white;
         font-size: 35px;
         display: flex;
@@ -163,6 +161,10 @@ color: grey;
         position: relative;
         top: 95px;
        font-size: 15px;
+       font-family: "Roboto", sans-serif;
+       font-weight: 100;
+       font-style:normal;
+     color: grey;
         color: gray;
      
     }
@@ -204,7 +206,6 @@ color: grey;
         transition: width .5s linear;
     }
 
- */
 
  .progress-bar1 {
     width: 46%;
@@ -266,6 +267,10 @@ color: grey;
     align-items:center;
     position: relative;
     top: 90px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 
 .nav2{
@@ -327,6 +332,10 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 .exp{
     position: relative;
@@ -344,6 +353,10 @@ p{
     justify-content: space-around;
     position: relative;
     top: 150px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 .n1,.n2,.n3{
     width: 240px;
@@ -417,6 +430,10 @@ h6{
     padding-left: 20px;
     padding-right: 20px;
     color: grey;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  
 }
 h5{
    display: flex;
@@ -438,7 +455,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-top: -30px;
+top: -60px;
+font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 
 .from-blog{
@@ -460,15 +481,27 @@ top: -30px;
 .texto-form, .img-dire, .dire, .img-telf, .telf,.img-mail, .mail{
 display: flex;
 justify-content: left;   
+font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 
 .nombres,.nombre-f,.mail-form,.mails{
 display: flex;
 justify-content: left;
+font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 .comentarios,.caja{
     display: flex;
     justify-content: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 
 .contenedor-formulario{
@@ -551,6 +584,10 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+  color: white;
 }
 .iconosfooter{
     display: flex;
@@ -591,4 +628,9 @@ top: 100px;
 .iconosfooter{
     position: relative;
     top: 80px;
+}
+.i-foot{
+    position: relative;
+    top: 120px;
+    left: 8px;
 }
