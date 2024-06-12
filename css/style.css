@@ -177,23 +177,7 @@ color: grey;
         top: 10px;
         left: 10px;
     }
-    /* .container{
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: white;
-    }
-
-    .container .progress-container{
-        margin-bottom: 25px;
-    }
-
-    .container .progress-container h4{
-        margin: 0 0 15px 15px;
-        letter-spacing: .5px;
-    }
+    
 
     .container .progress-container .progress-bar span{
         position: relative;
@@ -468,7 +452,9 @@ top: -30px;
     width: 725px;
     height: 480px;
     color: white;
-  
+    position:absolute;
+    top: 3700px;
+    left: 350px;
 }
 
 .texto-form, .img-dire, .dire, .img-telf, .telf,.img-mail, .mail{
@@ -478,25 +464,77 @@ justify-content: left;
 
 .nombres,.nombre-f,.mail-form,.mails{
 display: flex;
-justify-content: right;
+justify-content: left;
 }
 .comentarios,.caja{
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 
 .contenedor-formulario{
     display: flex;
     justify-content: space-around;
+   
 }
 .datos-form{
-    background-color:rgb(157, 255, 0);
+    background-color:#30303d;
     width: 360px;
     height: 480px;
-    
 }
+.texto-form{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.img-dire, .dire,.img-telf,.telf,.img-mail, .mail{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
 .form-formulario{
-    background-color:red;
+    background-color:30303d;
     width: 360px;
+    position: relative;
+    top: 35px;
     
 }
+.nombre-f, .mail-form, .comentarios{
+padding: 15px;
+font-size: 16px;
+border: none;
+outline: 0px;
+}
+
+.caja1, .caja2{
+    width: 160px;
+    height: 30px;
+    position: relative;
+    left: 20px;;
+}
+.caja3{
+    width: 325px;
+    height: 30px;
+    position: relative;
+    left: 20px;
+}
+.caja4{
+    width: 330px;
+    height: 100px;
+    position: relative;
+    left: 16px;
+}
+.boton{
+    background-color: #08D848;
+    width: 335px;
+    height: 30px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.logosform{
+    position: relative;
+    top: -100px;
+    left: 30px;
+}
+
